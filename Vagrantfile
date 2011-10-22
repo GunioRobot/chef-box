@@ -1,6 +1,6 @@
 #-*- mode: ruby; -*-
 
-@box = ENV["BOX"] || "natty64"
+@box = ENV["BOX"] || "oneric64"
 
 def ipaddress(n=16) ; "172.16.172.#{n}" ; end
 
